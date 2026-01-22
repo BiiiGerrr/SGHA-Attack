@@ -26,6 +26,7 @@ python attack_SGHA.py \
   --epsilon 8 \
   --clip_encoder "ViT-B/32" \
   --hook_layers 7 9 11
+```
 
 ## 3. Evaluation
 
