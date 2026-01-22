@@ -32,8 +32,8 @@ python attack_SGHA.py \
 
 For evaluating the transferability and effectiveness of the generated adversarial examples, please refer to the evaluation protocols in:
 
--  [AttackVLM:](https://github.com/yunqing-me/AttackVLM)
--  [COA:](https://github.com/Shelton1013/Chain_of_Attacke)
+-  [AttackVLM](https://github.com/yunqing-me/AttackVLM)
+-  [COA](https://github.com/Shelton1013/Chain_of_Attacke)
 
 ## Acknowledgement
 
