@@ -16,7 +16,7 @@ def diverse_input(image, resize_rate=1.1, diversity_prob=0.5):
     Diverse Input (DI) transformation for adversarial attacks
     Official arguments: resize_rate=1.1, diversity_prob=0.5
     """
-    # 以概率diversity_prob执行变换，否则返回原图
+ 
     if torch.rand(1).item() > diversity_prob:
         return image
 
@@ -377,7 +377,7 @@ if __name__ == "__main__":
         target_inter_features = None  # dict[layer] -> [B, Seq_img, D_v]
 
         if use_anchor and len(anchor_batches) > 0:
-            # 1. Anchor Selection & Top-K Collection（与你原来的完全一致）
+            # 1. Anchor Selection & Top-K Collection
             batch_anchor_features = []
             batch_anchor_weights = []
             batch_topk_anchor_imgs = []
@@ -405,7 +405,7 @@ if __name__ == "__main__":
                 batch_anchor_weights.append(weights.detach())
                 batch_topk_anchor_imgs.append(anchor_batch[top_idx])
 
-            # 2. Compute Weighted Target Features（与你原来的逻辑相同，只是包进 use_anchor 分支）
+            # 2. Compute Weighted Target Features
             if args.lambda_feature > 0:
                 tmp_target = {layer: [] for layer in args.hook_layers}
                 with torch.no_grad():
