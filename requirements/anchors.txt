@@ -1,0 +1,11 @@
+# Install core.txt first, plus the original CompVis code with --no-deps.
+diffusers==0.35.2
+opencv-python-headless
+invisible-watermark
+scipy
+accelerate
+albumentations
+einops
+torch-fidelity
+taming-transformers-rom1504
+kornia

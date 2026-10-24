@@ -1,0 +1,41 @@
+{
+  "vit_b": {
+    "batch_size": 250,
+    "input_res": 224,
+    "lambda_feature": 1.5,
+    "lambda_cls": 1.0,
+    "lambda_spatial": 0.7,
+    "lambda_text_mid": 2.5,
+    "hook_layers": [
+      7,
+      9,
+      11
+    ]
+  },
+  "vit_l": {
+    "batch_size": 10,
+    "input_res": 336,
+    "lambda_feature": 8.0,
+    "lambda_cls": 0.5,
+    "lambda_spatial": 1.5,
+    "lambda_text_mid": 1.0,
+    "hook_layers": [
+      14,
+      18,
+      22
+    ]
+  },
+  "vit_g": {
+    "batch_size": 5,
+    "input_res": 224,
+    "lambda_feature": 6.0,
+    "lambda_cls": 1.0,
+    "lambda_spatial": 0.8,
+    "lambda_text_mid": 2.5,
+    "hook_layers": [
+      23,
+      30,
+      37
+    ]
+  }
+}

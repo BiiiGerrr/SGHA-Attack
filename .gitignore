@@ -1,0 +1,24 @@
+# Credentials and local machine settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+token*.json
+*.local.json
+seed_record.txt
+
+# Data, weights, inference output, external code, and environments
+data/clean/
+models/
+outputs/
+vendor/
+.venv*/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+*.log
+.DS_Store
+Thumbs.db

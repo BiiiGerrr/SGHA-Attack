@@ -1,0 +1,7 @@
+# Install core.txt first. Native helper modules are fetched separately.
+absl-py
+ml_collections
+accelerate
+scipy
+torchdiffeq
+diffusers==0.35.2

@@ -1,0 +1,42 @@
+{
+  "sgha_attack/attacks/vit_b.py": {
+    "research_source_sha256": "76f9818e38ab9d3526a22e5bd3df88599cbf1d9de9181c97ee38d0fad8ec4df8",
+    "portable_sha256": "a08536ad1d4ee8805546938b6eb23b7c9260e1d696f243b1462819a0615770f2"
+  },
+  "sgha_attack/attacks/vit_l.py": {
+    "research_source_sha256": "ad5265c29cbdee80ef07873466c400033c4a4cd38785d49e9537e0f6b9ea0620",
+    "portable_sha256": "711ff04fbd9358fe30c4d60c3df243f85501be98d96264d24037ea6974d77b52"
+  },
+  "sgha_attack/attacks/vit_g.py": {
+    "research_source_sha256": "f65bde64cec831b82e8491d23a624b2d200b8601f90b964c8848ed13bb26ac23",
+    "portable_sha256": "1337692a515abbf489a1a2e18a3a7b624e8d10d0765757c7548ca3a74f8118b8"
+  },
+  "sgha_attack/backends/caption_blip2.py": {
+    "research_source_sha256": "64617f473f5fa3a02c51457b96eb6195e7dd4d66d640c17be6fe155681b7e414",
+    "portable_sha256": "f01ec6b73404a39d4c9b3543b2fae34328030a3aad206087b2582d1d31a28c06"
+  },
+  "sgha_attack/backends/caption_instructblip.py": {
+    "research_source_sha256": "38c4018f8ffbe72bb8daf32b98251a46e937b4586615ec9f38bb6da35718c0bb",
+    "portable_sha256": "c3949dc61b309cebf69e2f8efdb07ab4279248e8b10cad78cd37d478f3f673c4"
+  },
+  "sgha_attack/backends/caption_minigpt4.py": {
+    "research_source_sha256": "322469171132d7608a4fcc1b0c4dd758fbe1253576f0c58e4e7a5f3097806eea",
+    "portable_sha256": "67f8b86506d6354bda3014d28ae0f126f5ed72b0b4652dc4944291e38989f716"
+  },
+  "sgha_attack/backends/caption_llava.py": {
+    "research_source_sha256": "b070d986aa131353aad2aa65ce5b816126d9f588208679e4239f1c70095c6383",
+    "portable_sha256": "76ec806c6c8560711c3a514d7b866c5043ca09db5e425c714c751eec36ed5564"
+  },
+  "sgha_attack/backends/caption_llava_next.py": {
+    "research_source_sha256": "0d508a52a7377b8e3f72c7b57ee5de6eeabc5f6789db4826e13c02f9f24cd64a",
+    "portable_sha256": "1b704690714d7d914f72766f6959bac6de84c124ba62af4df9583af8f1410ccd"
+  },
+  "sgha_attack/backends/caption_unidiffuser.py": {
+    "research_source_sha256": "31090368c6591298d450d8bcc63973884b84169ac688a1186cf60a01a38b87a7",
+    "portable_sha256": "d9dda0140f71d443fc5d5e2ed7d5d8afda734f7815d5d7c4e629ff779667586b"
+  },
+  "sgha_attack/backends/generate_anchors_reference.py": {
+    "research_source_sha256": "ffb420e4d764190b9ed99a2f7fd3cbc1ac7cc511f1d25948c5a1c5ca470c9266",
+    "portable_sha256": "ece84f5115105ba1264f49e96d2c132be97707270c8d7f7e3b30b59b760e92f0"
+  }
+}
